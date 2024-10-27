@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclair CherryTree Guide</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bxl-codepen"></i>
+                <span>ECLAIR CTG</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <div class="user">
+            <img src="user.jpg" alt="bg" class="user-img">
+            <div>
+                <p class="bold"> eclairoclassic</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="#" onclick="showSection('home')">
+                    <i class="bx bxs-home-alt-2"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('wishingwell')">
+                    <i class="bx bxs-cylinder"></i>
+                    <span class="nav-item">WishingWell</span>
+                </a>
+                <span class="tooltip">WishingWell</span>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('slayertask')">
+                    <i class="bx bxs-droplet"></i>
+                    <span class="nav-item">SlayerTask</span>
+                </a>
+                <span class="tooltip">SlayerTask</span>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('secretrares')">
+                    <i class="bx bxs-key"></i>
+                    <span class="nav-item">SecretRares</span>
+                </a>
+                <span class="tooltip">SecretRares</span>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('specialeffects')">
+                    <i class="bx bxs-diamond"></i>
+                    <span class="nav-item">SpecialEffects</span>
+                </a>
+                <span class="tooltip">SpecialEffects</span>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('treasurehunt')">
+                    <i class="bx bxs-data"></i>
+                    <span class="nav-item">TreasureHunt</span>
+                </a>
+                <span class="tooltip">TreasureHunt</span>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('guide')">
+                    <i class="bx bxs-note"></i>
+                    <span class="nav-item">Guide</span>
+                </a>
+                <span class="tooltip">Guide</span>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div id="home" class="container">
+            <h1>Welcome to Eclair Cherry Tree Guide!</h1>
+            <br>
+            <br>
+            <br>
+            <p class="par">
+                Dive into the enchanting world of CherryTree, a captivating text-based RPG that balances simplicity 
+                with depth, allowing players to embark on thrilling adventures filled with unique challenges and rewards. 
+                This guide serves as your comprehensive resource for mastering every aspect of the game.
+                <br>
+                <br>
+                Explore a variety of skills including Attack, Strength, Fishing, and Crafting, each designed to enhance 
+                your gameplay as you aim for the prestigious levels of 99 or even 130. Encounter formidable enemies that 
+                drop rare loot, and take on engaging quests and slayer tasks that offer bountiful rewards. As you progress, 
+                unlock powerful gear, elixirs, and hidden treasures that elevate your gaming experience.
+                <br>
+                <br>
+                Our guide is meticulously organized, featuring dedicated sections for upgrades, skills, items, and 
+                treasure hunts. Whether you're looking to enhance your character’s abilities, strategize your next quest,
+                or discover the secrets of powerful items, Eclair CherryTree Guide has you covered.
+                <br>
+                <br>
+                Join our community of passionate players and share your adventures as you navigate the intricate mechanics 
+                and strategies of CherryTree. With our help, you'll quickly learn the ropes and ultimately master the game.
+                <br>
+                <br>
+                <a href="https://play.google.com/store/apps/details?id=uk.playdrop.cherrytree_idletextrpg&hl=en&gl=US">Install & Play Now</a>
+                <br><a href="https://cherrytree.wiki/about.php">Original CherryTree Wiki</a>
+                <br><a href="https://discord.gg/jfvjDVne">Discord Server</a>
+            </p>
+        </div>
+        <div id="wishingwell" class="container" style="display: none;">
+            <h1>Wishing Well</h1><br><br>
+            <h2>Common</h2>
+            <table>
+                <tr>
+                    <th class="wish-column">Wish</th>
+                    <th class="cap-column">Cap</th>
+                    <th class="description-column">Description</th>
+                </tr>
+                <tr>
+                    <td>Attack</td>
+                    <td>150</td>
+                    <td>Boosts attack by 15 per level</td>
+                </tr>
+                <tr>
+                    <td>Strength</td>
+                    <td>150</td>
+                    <td>Boosts strength by 15 per level</td>
+                </tr>
+                <tr>
+                    <td>Defence</td>
+                    <td>150</td>
+                    <td>Boosts defence by 15 per level</td>
+                </tr>
+                <tr>
+                    <td>Trader</td>
+                    <td>100</td>
+                    <td>Increases sell value of all items by 1% per level</td>
+                </tr>
+                <tr>
+                    <td>Archery</td>
+                    <td>250</td>
+                    <td>Archery Damage bonus of 2 per level</td>
+                </tr>
+            </table><br>
+            <h2>Rare</h2>
+            <table>
+                <tr>
+                    <th class="wish-column">Wish</th>
+                    <th class="cap-column">Cap</th>
+                    <th class="description-column">Description</th>
+                </tr>
+                <tr>
+                    <td>Global xp</td>
+                    <td>500</td>
+                    <td>Gives a global exp bonus of 0.5% per level</td>
+                </tr>
+                <tr>
+                    <td>Miner</td>
+                    <td>50</td>
+                    <td>Speeds up Mining by 0.1 seconds per level (Minimum 1 second per resource)</td>
+                </tr>
+                <tr>
+                    <td>Fisher</td>
+                    <td>50</td>
+                    <td>Speeds up Fishing by 0.1 seconds per level (Minimum 1 second per resource)</td>
+                </tr>
+                <tr>
+                    <td>LumberJack</td>
+                    <td>50</td>
+                    <td>Speeds up Forestry by 0.1 seconds per level (Minimum 1 second per resource)</td>
+                </tr>
+                <tr>
+                    <td>Theif</td>
+                    <td>50</td>
+                    <td>Increased Thieving success by 1% per level (Maximum of 100% per target)</td>
+                </tr>
+            </table><br>
+            <h2>Epic</h2>
+            <table>
+                <tr>
+                    <th class="wish-column">Wish</th>
+                    <th class="cap-column">Cap</th>
+                    <th class="description-column">Description</th>
+                </tr>
+                <tr>
+                    <td>Silver Fish</td>
+                    <td>50</td>
+                    <td>Gives a 5% chance of finding an additional 100 Silver per level while Fishing</td>
+                </tr>
+                <tr>
+                    <td>Silver Trees</td>
+                    <td>50</td>
+                    <td>Gives 5% chance of finding an additional 100 Silver per level while Chopping Trees</td>
+                </tr>
+                <tr>
+                    <td>Killcoins</td>
+                    <td>50</td>
+                    <td>Slayer tasks give 1 extra Killcoin each task per level</td>
+                </tr>
+                <tr>
+                    <td>Fletcher</td>
+                    <td>50</td>
+                    <td>Gives 1% chance of fletching double items each level</td>
+                </tr>
+            </table><br>
+            <h2>Legendary</h2>
+            <table>
+                <tr>
+                    <th class="wish-column">Wish</th>
+                    <th class="cap-column">Cap</th>
+                    <th class="description-column">Description</th>
+                </tr>
+                <tr>
+                    <td>Golden Touch</td>
+                    <td>50</td>
+                    <td>Increases rate of Golden Touch potions by 0.25% per level</td>
+                </tr>
+                <tr>
+                    <td>Secrets</td>
+                    <td>40</td>
+                    <td>Increases chance of finding secret rares by 1% per level</td>
+                </tr>
+                <tr>
+                    <td>Idle Please</td>
+                    <td>100</td>
+                    <td>Increases max offline timer by 15 minutes per level</td>
+                </tr>
+                <tr>
+                    <td>Pet Hunter</td>
+                    <td>20</td>
+                    <td>Increases the chance to find pets by 20% per level</td>
+                </tr>
+                <tr>
+                    <td>Treasure Hunter</td>
+                    <td>40</td>
+                    <td>Increases the chance to find Treasure scrolls by 1% per level</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="slayertask" class="container" style="display: none;">
+            <h1>Slayer Task</h1><br><br>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Master</th>
+                    <th>Task Amount</th>
+                    <th>Killcoins</th>
+                    <th>Soul Gem Chance</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Blade</td>
+                    <td>5 - 10</td>
+                    <td>1</td>
+                    <td>0.04%</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Tracer</td>
+                    <td>10 - 20</td>
+                    <td>2</td>
+                    <td>0.80%</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>Crux</td>
+                    <td>20 - 30</td>
+                    <td>5</td>
+                    <td>1.40%</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>Tide</td>
+                    <td>25 - 40</td>
+                    <td>10</td>
+                    <td>2.00%</td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td>Quill</td>
+                    <td>40 - 60</td>
+                    <td>20</td>
+                    <td>2.80%</td>
+                </tr>
+                <tr>
+                    <td>85</td>
+                    <td>Lumen</td>
+                    <td>60 - 90</td>
+                    <td>25</td>
+                    <td>3.40%</td>
+                </tr>
+                <tr>
+                    <td>95</td>
+                    <td>Vain</td>
+                    <td>90 - 120</td>
+                    <td>40</td>
+                    <td>3.96%</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>Feroxi</td>
+                    <td>100 - 150</td>
+                    <td>60</td>
+                    <td>4.32%</td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td>Adamet</td>
+                    <td>120 - 200</td>
+                    <td>100</td>
+                    <td>9.60%</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="secretrares" class="container" style="display: none;">
+            <h1>Secret Rares</h1><br><br>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Benefits</th>
+                    <th>How to Obtain</th>
+                    <th>Drop Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mystic Hat</td>
+                    <td>A very powerful hat</td>
+                    <td>Killing normal Pig</td>
+                    <td>1:15k</td>
+                  </tr>
+                  <tr>
+                    <td>Mystic Robe</td>
+                    <td>Found while Crafting Dragon Rider Top</td>
+                    <td>Crafting Dragon Rider Top</td>
+                    <td>1:125k</td>
+                  </tr>
+                  <tr>
+                    <td>Mystic Gloves</td>
+                    <td>A very powerful pair of gloves</td>
+                    <td>Making Thieving Potion</td>
+                    <td>1:15k</td>
+                  </tr>
+                  <tr>
+                    <td>Mystic Bottoms</td>
+                    <td>A very powerful pair of robe bottoms</td>
+                    <td>Cooking Fish Wedge</td>
+                    <td>1:20k</td>
+                  </tr>
+                  <tr>
+                    <td>Mystic Boots</td>
+                    <td>A very powerful pair of boots</td>
+                    <td>Fishing at Livingstone Island</td>
+                    <td>1:15k</td>
+                  </tr>
+                  <tr>
+                    <td>Mystic Staff</td>
+                    <td>This staff gives a 25% Instant kill chance (stacks with potions and the Ring of Death) <br>25% chance to reduce all incoming damage to 0 <br>Gives 50% more damage in the Immortal Realm in turn for no instant kill chance</td>
+                    <td>Dropped by Sheep (while chopping Gingko Trees and ultimaxed)</td>
+                    <td>1:900k</td>
+                  </tr>
+                  <tr>
+                    <td>Mystic Dagger</td>
+                    <td>A very powerful dagger</td>
+                    <td>Completing Lumen Slayer <br>Found in the Kings Chest</td>
+                    <td>1:2.5k</td>
+                  </tr>
+                  <tr>
+                    <td>Blessed Sacrifice</td>
+                    <td>Improves Damage by 50% of Max health</td>
+                    <td>Killing Living Armour Kings</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Book of Death</td>
+                    <td>A powerful item for the Shield slot</td>
+                    <td>Killing Elven Archer</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Book of Necromancy</td>
+                    <td>A powerful item for the Shield slot</td>
+                    <td>Killing Elven King</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Ancient Elven Book</td>
+                    <td>A very powerful book for the Shield slot</td>
+                    <td>Killing Elven Queen</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Ring of Life</td>
+                    <td>This ring heals for 20% of all damage dealt</td>
+                    <td>Killing Elite Pig</td>
+                    <td>1:50k</td>
+                  </tr>
+                  <tr>
+                    <td>Ring of Speed</td>
+                    <td>This ring doubles attack speed</td>
+                    <td>Killing Orc King</td>
+                    <td>1:20k</td>
+                  </tr>
+                  <tr>
+                    <td>Ring of Death</td>
+                    <td>Provides a permanent 10% chance to instantly kill the enemy</td>
+                    <td>Cooking Dragon Platter</td>
+                    <td>1:40k</td>
+                  </tr>
+                  <tr>
+                    <td>Ring of Souls</td>
+                    <td>Doubles Soul Gems <br>Restarts slayer tasks automatically <br>It has the effect of Ring of Speed</td>
+                    <td>Killing Elf Queens in Slayer Task</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>All Necklaces</td>
+                    <td>Boosts Attack, Strength, and Defence by +250 respectively</td>
+                    <td>Killing any enemy while training the respective skills</td>
+                    <td>1:50k</td>
+                  </tr>
+                  <tr>
+                    <td>Ring Fragment</td>
+                    <td>Can be used in the Workshop to craft powerful rings</td>
+                    <td>Crafting any item in the Workshop</td>
+                    <td>1:75k</td>
+                  </tr>
+                  <tr>
+                    <td>Necklace of Restoration</td>
+                    <td>Heals for 50% of all damage dealt</td>
+                    <td>Combine all 5 fragments at level 128 in the Workshop</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Restoration Fragment 1</td>
+                    <td>Part of Necklace of Restoration</td>
+                    <td>Killing Water Dragons</td>
+                    <td>1:100k</td>
+                  </tr>
+                  <tr>
+                    <td>Restoration Fragment 2</td>
+                    <td>Part of Necklace of Restoration</td>
+                    <td>Farming Cherries</td>
+                    <td>1:100k</td>
+                  </tr>
+                  <tr>
+                    <td>Restoration Fragment 3</td>
+                    <td>Part of Necklace of Restoration</td>
+                    <td>Discovery Location: Mount Desmond</td>
+                    <td>1:100k</td>
+                  </tr>
+                  <tr>
+                    <td>Restoration Fragment 4</td>
+                    <td>Part of Necklace of Restoration</td>
+                    <td>Cutting Elder Logs</td>
+                    <td>1:100k</td>
+                  </tr>
+                  <tr>
+                    <td>Restoration Fragment 5</td>
+                    <td>Part of Necklace of Restoration</td>
+                    <td>Burning Chestnut Logs</td>
+                    <td>1:100k</td>
+                  </tr>
+                  <tr>
+                    <td>Chefs Hat</td>
+                    <td>Doubles all food cooked <br>Saves 25% of all ingredients</td>
+                    <td>Thieving cook while wearing Cooking Cape</td>
+                    <td>1:800k</td>
+                  </tr>
+                  <tr>
+                    <td>Flame Gloves</td>
+                    <td>Automatically burns logs for double firemaking XP while woodcutting</td>
+                    <td>Wasteland Volcano discovery</td>
+                    <td>1:500k</td>
+                  </tr>
+                  <tr>
+                    <td>Thieving Gloves</td>
+                    <td>100% thieving success rate <br>5x coins <br>Reduces thieving time to 1.5 seconds</td>
+                    <td>Harvesting Elder Logs</td>
+                    <td>1:150k</td>
+                  </tr>
+                  <tr>
+                    <td>Pickaxe of the Gods</td>
+                    <td>100% mining success rate <br>Triples all ores received</td>
+                    <td>Mining Emerald while wearing Mining Cape</td>
+                    <td>1:800k</td>
+                  </tr>
+                  <tr>
+                    <td>Illuminated Gem</td>
+                    <td>Triples ores from mining <br>Small chance to find a Gold Coin</td>
+                    <td>Mining at any location <br>Higher ore tiers increase rate</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Hatchet of the Gods</td>
+                    <td>25% increased chop speed <br>Doubles logs <br>Seed chance <br>zero fail chance</td>
+                    <td>Obtained from Eagles Nest</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Power Stone</td>
+                    <td>Increases damage by 10%</td>
+                    <td>Making Power Potion <br>Found in the Kings Chest</td>
+                    <td>1:2k</td>
+                  </tr>
+                  <tr>
+                    <td>Super Power Stone</td>
+                    <td>Increases damage by 25%</td>
+                    <td>Killing Ghost <br>Found in the Kings Chest</td>
+                    <td>1:20k</td>
+                  </tr>
+                  <tr>
+                    <td>Extreme Power Stone</td>
+                    <td>Increases damage by 50%</td>
+                    <td>Vain Slayer <br>Found in the Kings Chest</td>
+                    <td>1:2.5k</td>
+                  </tr>
+                  <tr>
+                    <td>Chicken Knife</td>
+                    <td>Just a really cool weapon</td>
+                    <td>Dropped by Chicken <br>Elite Chicken <br>Found in the Farm Chest</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Drake's Compass</td>
+                    <td>Allows instant discovery of the full grid</td>
+                    <td>Crafting Satchel whilst you have a NORMAL Luck Potion active and LEATHER GLOVES equipped</td>
+                    <td>1:150k</td>
+                  </tr>
+                  <tr>
+                    <td>Drake's Diary</td>
+                    <td>Does nothing, means you failed to get the Compass</td>
+                    <td>Found while Crafting Satchel WITHOUT a Luck Potion active and Leather Gloves equipped</td>
+                    <td>1:150k</td>
+                  </tr>
+                  <tr>
+                    <td>Scythe of Demeter</td>
+                    <td>Reduces Farming timers by 80%</td>
+                    <td>Harvesting crops in the Farm <br>The higher level the crop, the higher chance at finding this item</td>
+                    <td>1:352k</td>
+                  </tr>
+                  <tr>
+                    <td>Cauldron</td>
+                    <td>Allows the automatic renewal of Potions</td>
+                    <td>Making Super Defense Potion, Dropped by Jin</td>
+                    <td>1:6.6k</td>
+                  </tr>
+                  <tr>
+                    <td>Rabbits Foot</td>
+                    <td>Doubles the chance of getting Eagles nests</td>
+                    <td>Obtained from Eagles Nest</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Magic Watering Can</td>
+                    <td>Allows the player to toggle on auto farming</td>
+                    <td>Killing Elite Chickens while wearing full Leather</td>
+                    <td>1:125k</td>
+                  </tr>
+                  <tr>
+                    <td>Rod of Anuket</td>
+                    <td>Allows the automatic renewal of Fishing Nets</td>
+                    <td>Fishing Location: The Cave</td>
+                    <td>1:5k</td>
+                  </tr>
+                  <tr>
+                    <td>Ancient Rods</td>
+                    <td>Allows access to the Mystery Island Fishing spot</td>
+                    <td>Fishing Location: City River, Dropped by Goblin Chief</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Mystery Egg</td>
+                    <td>Allows access to the Mystery Island Discovery location</td>
+                    <td>Discovery Location: Island Oasis, Dropped by Phoenix</td>
+                    <td>N/A</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+        </div>
+        
+        <div id="specialeffects" class="container" style="display: none;">
+            <h1>Special Effects</h1><br><br>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Benefits</th>
+                    <th>How to Obtain</th>
+                </tr>
+                <tr>
+                    <td>Hatchet of Copina</td>
+                    <td>Same effects of the Hatchet of the Gods
+                        <br>4x logs, 4x chance at finding seeds, 4x chance at finding Eagle nests.
+                        <br>(4x of the base rates, not 4x better than hatchet of the gods)</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Pickaxe of Copina</td>
+                    <td>100% Mining Success Rate.
+                        <br>4x ores mined instead of 3x compared to Pickaxe of the Gods.</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Opulina's Robe Set</td>
+                    <td>When both Opulina's Top and Bottom are equipped
+                        <br>You get 4x more gold found with Golden Touch Potions.</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Death Princess Rune</td>
+                    <td>80% Chance to double the users damage
+                        <br>20% chance to do 70% less damage.</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Birthday Wood</td>
+                    <td>As far as we know.. It does nothing..</td>
+                    <td>Was given out by hand by Adam during the 2024 Birthday Event.</td>
+                </tr>
+                <tr>
+                    <td>Sword of Cognium</td>
+                    <td>33% Damage increase at the Immortal Realm.
+                        15% Insta Kill chance everywhere Except the Immortal Realm, or Kingdom of the gods.
+                        A chance to spawn a cog every time you deal damage.</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Berserker Ring</td>
+                    <td>Gives the Effect of Ring of Speed, and Super Power Stone.</td>
+                    <td>Created in the Workshop.</td>
+                </tr>
+                <tr>
+                    <td>Eternal Ring</td>
+                    <td>Gives the Effect of Ring of Speed, Ring of Death, and Ring of Life.</td>
+                    <td>Created in the Workshop.</td>
+                </tr>
+                <tr>
+                    <td>Eternal Berserker Ring</td>
+                    <td>Gives the Effect of Ring of Speed, Ring of Death, Ring of Life, and 70% Increased Damage.</td>
+                    <td>Created in the Workshop.</td>
+                </tr>
+                <tr>
+                    <td>Rod of Copina</td>
+                    <td>Automatically Renews fishing nets, and Quaduples all fish caught.</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Knife of Copina</td>
+                    <td>Doubles everything made from Fletching.</td>
+                    <td>Treasure Caskets.</td>
+                </tr>
+                <tr>
+                    <td>Scythe of Aurial</td>
+                    <td>Automatically replants seeds
+                        <br>Doubles all harvested crops
+                        <br>Reduces farming timers by 95%.</td>
+                    <td>Treasure Caskets.</td>
+                </tr>
+                <tr>
+                    <td>Quiver of Kynosian</td>
+                    <td>60% chance to re-use your arrow.</td>
+                    <td>Treasure Caskets.</td>
+                </tr>
+                <tr>
+                    <td>Cognium Ring</td>
+                    <td>Has the Effect of the Ring of Speed reduces respawn time by 50%
+                        <br>Increases the chances of finding "of Cognium" title by 20%.</td>
+                    <td>Treasure Caskets.</td>
+                </tr>
+                <tr>
+                    <td>Elven Sword</td>
+                    <td>While in Immortal Realm, 30% chance of Invincibility
+                        <br>When activated it heals you for 20% of the damage you would have received.</td>
+                    <td>Treasure Caskets</td>
+                </tr>
+                <tr>
+                    <td>Challenger Set</td>
+                    <td>Each piece gives 5% bonus experience while worn
+                        <br>Total 25% when the set is worn.</td>
+                    <td>Purchased from the Daily challenge shop.</td>
+                </tr>
+                <tr>
+                    <td>Slayer Master Set</td>
+                    <td>Each piece gives 10% bonus experience in Slayer
+                        <br>Totaling up to 50% Bonus Slayer xp.</td>
+                    <td>Discontinued, Removed from the slayer shop with the release of the Apprentice Set.</td>
+                </tr>
+                <tr>
+                    <td>Soul Reaper Set</td>
+                    <td>Gives a 5% chance of Insta kill, and 5% Damage bonus per piece worn.
+                        <br>Insta Kill does not work in the Kingdom of the Gods.
+                        <br>Pieces can replace a piece of Primal when hunting for more Soul Reaper.</td>
+                    <td>A rare chance to get a piece at the completion of an Adamet task
+                        <br>Must be wearing Full Primal or substitute Soul reaper pieces.</td>
+                </tr>
+                <tr>
+                    <td>Santa Hat</td>
+                    <td>Gives 2x Event Currency while worn.</td>
+                    <td>Discontinued from the 2023 Christmas Event.</td>
+                </tr>
+                <tr>
+                    <td>PartyHats</td>
+                    <td>Multiplies the event currency while worn Wooden:10x. Black:5x.
+                        <br>Blue:4x. Cog:x. Pink:3x. Red:3x. Yellow:2x. White:2x.</td>
+                    <td>Discontinued, Available during the 2024 Birthday Event.</td>
+                </tr>
+                <tr>
+                    <td>Sunglasses</td>
+                    <td>Reduce enemy attack speed by 50%.</td>
+                    <td>Discontinued from the 2024 Summer event.</td>
+                </tr>
+                <tr>
+                    <td>Ring of Sun</td>
+                    <td>Gives your enemy a 10% chance to miss while worn.</td>
+                    <td>Discontinued from the 2024 Summer event.</td>
+                </tr>
+                <tr>
+                    <td>Spade</td>
+                    <td>Gives you a 5% chance of Insta Kill everywhere except the Kingdom of the Gods.</td>
+                    <td>Discontinued from the 2024 Summer event.</td>
+                </tr>
+                <tr>
+                    <td>Blessed Eternal Sacrifice</td>
+                    <td>Increses Damage by 100% of Max Hitpoints.
+                        <br>Acts as a Cauldron when worn.</td>
+                    <td>Craftable in the Workshop.</td>
+                </tr>
+            </table>    
+        </div>
+        
+        <div id="treasurehunt" class="container" style="display: none;">
+            <div class="treasure-hunt-content">
+                <h1>Treasure Hunt</h1><br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Clue</th>
+                            <th>Answer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>A bustling waterway amidst stone and steel, where the flow never sleeps.</td>
+                        <td>Fishing in the City River.</td>
+                    </tr>
+                    <tr>
+                        <td>A great place on a Ferris Wheel, or an Arcade. Omg Donuts and Slush</td>
+                        <td>Fishing at the Beach Pier</td>
+                    </tr>
+                    <tr>
+                        <td>A hidden paradise among trees, where the waters reflect the canopy above.</td>
+                        <td>Fishing in The Grove</td>
+                    </tr>
+                    <tr>
+                        <td>A peaceful place filled with birds chirping, the beating heart of the earth.</td>
+                        <td>Fishing in The Woodland Lake</td>
+                    </tr>
+                    <tr>
+                        <td>As strong as they come, very reliable</td>
+                        <td>Chopping Oak trees with Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>Can't beat a good old Bacon Butty</td>
+                        <td>Killing Pigs in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Can't touch this</td>
+                        <td>Brewing the Invincibility Potion with Apothecary</td>
+                    </tr>
+                    <tr>
+                        <td>Contains information about things, well, technically this one doesn't, but usually they do</td>
+                        <td>Crafting the "Bestiary" in the Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>Despite the name, I would not recommend giving this guy a cuddle</td>
+                        <td>Killing Fluffy in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Did I get this one right? It is blue, right?</td>
+                        <td>Killing the Baby Blue Dragon in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Do these only work? Well, only one way to find out</td>
+                        <td>Brewing Normal Luck Potions at the Apothecary</td>
+                    </tr>
+                    <tr>
+                        <td>Do we really know more about space?</td>
+                        <td>Fishing in the Open Ocean</td>
+                    </tr>
+                    <tr>
+                        <td>Don't hit me on the head</td>
+                        <td>Crafting Nails in the Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>Don't touch the butt</td>
+                        <td>Cooking Clownfish in the Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>Evergreen Tree, often red in color</td>
+                        <td>Chopping Cedar trees in Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>Fair enough, I'm partially colourblind, so yes, I got this one a little off</td>
+                        <td>Killing Green Dragons in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>For Cognium! ❤️</td>
+                        <td>Killing Crocodiles in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Give a man a fish, feed him for a day. Teach a man to fish, feed him for a lifetime.</td>
+                        <td>Crafting Normal Fishing Nets in the Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>He can help me practice my bow skills, or just show off with his.</td>
+                        <td>Killing Elven Archers in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>How did I even catch this?</td>
+                        <td>Cooking Octopus in the Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>How on earth did a trolley get in there?</td>
+                        <td>Fishing in the Small Pond</td>
+                    </tr>
+                    <tr>
+                        <td>How on earth does this not make me rich behind my wildest dreams</td>
+                        <td>Mining Gold ore in the Mines</td>
+                    </tr>
+                    <tr>
+                        <td>I ain't eating that, looks like it's still on fire!</td>
+                        <td>Cooking Dragon Platters in the Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>I am found in all kinds of plants and animals across the earth and used as a defence mechanism</td>
+                        <td>Brewing Poison Potions at the Apothecary</td>
+                    </tr>
+                    <tr>
+                        <td>I am found in the darkness and have many eyes</td>
+                        <td>Killing the Giant Cave Spider in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>I am the king of greatly feared creatures, fire is my breath</td>
+                        <td>Killing the King Dragon in the Battle Arena.</td>
+                    </tr>
+                    <tr>
+                        <td>I come in many types, King is my most well known</td>
+                        <td>Killing Cobras in the Battle Arena.</td>
+                    </tr>
+                    <tr>
+                        <td>I could make some syrup, well, not on this game, but maybe one day?</td>
+                        <td>Chopping Maple Trees with Forestry.</td>
+                    </tr>
+                    <tr>
+                        <td>I feel harsh pickpocketing him, but I need money too you know</td>
+                        <td>Thieving from the Bard in the Thieving Guild.</td>
+                    </tr>
+                    <tr>
+                        <td>I gotta go, we got cows</td>
+                        <td>Brewing Cyclone Potions at the Apothecary.</td>
+                    </tr>
+                    <tr>
+                        <td>I lead an ancient forgotten tribe</td>
+                        <td>Killing the Ancient Tribal Leader in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>I must be aware of all the needles</td>
+                        <td>Chopping Pine Trees with Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>I prefer nice dreams?</td>
+                        <td>Killing the Nightmare in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>I shall rise from the ashes, and become reborn again.</td>
+                        <td>Killing the Phoenix in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>I think we have a slight problem, that my friend is what we call a lot of snow!</td>
+                        <td>Brewing Avalanche Potions at the Apothecary</td>
+                    </tr>
+                    <tr>
+                        <td>I wonder if that's where the name comes from?</td>
+                        <td>Chopping Cherry Blossom Trees with Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>I'm a queen of a newly discovered realm</td>
+                        <td>Killing the Elven Queen in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>I'm gonna take this night, and make it…</td>
+                        <td>Chopping Evergreen Trees with Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>I'm smart so I wish people would acknowledge that</td>
+                        <td>Killing the Dummy Queen in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>I'm sorry but I'm on team egg</td>
+                        <td>Killing the Normal Chickens in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>If I get caught, he better not give me a job to do</td>
+                        <td>Thieving from the Taskmaster in the Thieving Guild.</td>
+                    </tr>
+                    <tr>
+                        <td>Is this even edible?</td>
+                        <td>Cooking the Bone Stew in the Kitchen.</td>
+                    </tr>
+                    <tr>
+                        <td>It's not real, I mean, if it was it would be cool though right?</td>
+                        <td>Mining Dragon Ore in The Mines</td>
+                    </tr>
+                    <tr>
+                        <td>Karen, activate insta kill!</td>
+                        <td>Brewing Liquid Death Potions at the Apothecary</td>
+                    </tr>
+                    <tr>
+                        <td>Money don't grow on trees and I'm B-R-O-K-E</td>
+                        <td>Chopping Oak Trees with Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>Named after a place near where I grew up. Quite a few things are actually.</td>
+                        <td>Fishing at The Livingstone Island</td>
+                    </tr>
+                    <tr>
+                        <td>Not very comfortable to lie on</td>
+                        <td>Killing the Lion in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Now I know how Midas felt</td>
+                        <td>Brewing Golden Touch Potions at the Apothecary.</td>
+                    </tr>
+                    <tr>
+                        <td>On a diet? Nope, but this makes for some good healing</td>
+                        <td>Cooking Fruit Salad in the Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>Poor Cow</td>
+                        <td>Crafting "Leather" in the Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>Seriously though, who comes up with the names?
+                        <td>Performing Discovery at the Mount Kwaya</td>
+                    </tr>
+                    <tr>
+                        <td>Some people say I'm your best friend. Others just see the money</td>
+                        <td>Mining Diamonds in The Mines</td>
+                    </tr>
+                    <tr>
+                        <td>Think of the amount of fish I can catch with this beast</td>
+                        <td>Crafting Large Fishing Nets in the Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>This tree is a living fossil and has fan shaped leaves</td>
+                        <td>Chopping Ginkgo Trees with Forestry</td>
+                    </tr>
+                    <tr>
+                        <td>Up in the clouds. I'm the king of the world</td>
+                        <td>Performing Discovery at the Rocky Peaks</td>
+                    </tr>
+                    <tr>
+                        <td>Wana Bet?</td>
+                        <td>Performing Discovery at the Lake Wana</td>
+                    </tr>
+                    <tr>
+                        <td>Who let the dogs out?</td>
+                        <td>Killing Wild Dogs in the Battle Arena.</td>
+                    </tr>
+                    <tr>
+                        <td>Wood!</td>
+                        <td>Killing the Training Dummy in the Battle Arena</td>
+                    </tr>
+                    <tr>
+                        <td>Wouldnt these be like, really heavy?</td>
+                        <td>Crafting Iron Boots in the Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>Yea no thanks, but I don't like the dark</td>
+                        <td>Fishing in The Cave.</td>
+                    </tr>
+                    <tr>
+                        <td>You may need to wrap up warm for this one</td>
+                        <td>Performing Discovery in the Frozen Wasteland.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>`
+        </div>
+
+        <div id="guide" class="container" style="display: none;">
+            <h1>Advancement Guide</h1><br>
+            <h2>Grinding for Silver Coins and Ring Fragments</h2>
+            <p>
+                Kill some Cobras or Fluffies in the Slayer Dungeon while mining iron ore. Use the iron ore to craft a large amount of steel bars, then use the steel bars to craft several Spiked Shields. Finally, sell the Spiked Shields for silver coins.
+            </p><br><br>
+            <h2>Grinding for Gold Coins</h2>
+            <p>
+                This is more of an end-game or late-game build. Relying only on Gold Touch Potions offers a limited chance to earn gold. Most players nowadays use the Opulina Set with all Wishing Wells maxed out. For now, try finding rare items from caskets to sell, or consider working for someone in tasks like farming and exploration. You can also join the CherryTree Discord channel to find potential employers.
+            </p><br><br>
+            <h2>Grinding for Kill Coins and Soul Gems</h2>
+            <p>
+                Use the table below for reference: These are based on rng/luck so don't depend on it too much.
+            </p>
+            <table>
+                <tr>
+                    <th>Slayer</th>
+                    <th>Min</th>
+                    <th>Total Time (s)</th>
+                    <th>Rate for Soul Gem</th>
+                    <th>Time per SOul Gem (hrs)</th>
+                    <th>24hrs gain</th>
+                </tr>
+                <tr>
+                    <td>Blade</td>
+                    <td>5</td>
+                    <td>7.5</td>
+                    <td>2500</td>
+                    <td>5.21</td>
+                    <td>4.61</td>
+                </tr>
+                <tr>
+                    <td>Tracer</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>125</td>
+                    <td>0.52</td>
+                    <td>46.08</td>
+                </tr>
+                <tr>
+                    <td>Crux</td>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>70</td>
+                    <td>0.58</td>
+                    <td>41.14</td>
+                </tr>
+                <tr>
+                    <td>Tide</td>
+                    <td>25</td>
+                    <td>37.5</td>
+                    <td>50</td>
+                    <td>0.52</td>
+                    <td>46.08</td>
+                </tr>
+                <tr>
+                    <td>Quill</td>
+                    <td>40</td>
+                    <td>60</td>
+                    <td>35</td>
+                    <td>0.58</td>
+                    <td>41.14</td>
+                </tr>
+                <tr>
+                    <td>Lumen</td>
+                    <td>60</td>
+                    <td>90</td>
+                    <td>30</td>
+                    <td>0.75</td>
+                    <td>32.00</td>
+                </tr>
+                <tr>
+                    <td>Vain</td>
+                    <td>90</td>
+                    <td>135</td>
+                    <td>25</td>
+                    <td>0.94</td>
+                    <td>25.60</td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</body>
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function() {
+        sidebar.classList.toggle('active')
+    };
+
+    function showSection(sectionId) {
+        document.querySelectorAll('.container').forEach((section) => {
+            section.style.display = 'none';
+        });
+        document.getElementById(sectionId).style.display = 'block';
+    }
+</script>
+</html>
